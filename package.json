@@ -1,6 +1,6 @@
 {
   "name": "g2a-node-sass",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "libsass": "3.5.0.beta.2",
   "description": "Wrapper around libsass",
   "license": "MIT",
@@ -19,6 +19,9 @@
   "main": "lib/index.js",
   "bin": {
     "node-sass": "bin/node-sass"
+  },
+  "nodeSassConfig": {
+    "binarySite": "https://github.com/railsfactory-kumaresan/node-sass/releases/download"
   },
   "gypfile": true,
   "scripts": {
